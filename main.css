@@ -1,0 +1,18 @@
+#navbar{
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+  position: fixed;
+  top:0;
+  right:0;
+  width: 100%;
+}
+
+#btn1{
+float: right;
+background-color: #ff1a1a;
+}
+
+#btn2{
+float: right;
+padding-right: 13px;
+background-color: white;
+}
