@@ -1,0 +1,31 @@
+body {
+	background-image: url('https://www.tokkoro.com/picsup/2952057-pokemon-crystal-cgi-3d-colorful-digital-art___abstract-wallpapers.jpg');
+}
+#navbar {
+	background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+	position: fixed;
+	top: 0;
+	right: 0;
+	width: 100%;
+	img {
+		margin-right: 10px;
+	}
+	#btn1 {
+		margin-right: 5px;
+	}
+}
+#red {
+	float: right;
+	padding-top: 47px;
+	padding-right: 20px;
+}
+#pokemon-grid {
+	display: grid;
+	grid-template: 300px 300px/ 300px 300px 300px;
+	grid-gap: 10px;
+	margin-left: 20px;
+	padding-top: 40px;
+	img {
+		margin-top: 48px;
+	}
+}
